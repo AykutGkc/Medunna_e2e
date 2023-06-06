@@ -42,4 +42,8 @@ public class MedunnaRoomPage {
 
     @FindBy(xpath = "//tbody/tr[1]/td[1]")
     public WebElement fistId;
+
+    @FindBy(xpath = "//div[@role='alert']")
+    public WebElement alert;
+
 }
